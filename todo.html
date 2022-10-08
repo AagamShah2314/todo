@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <span class="icon">
+                <img src="logo.png" alt="not found">
+            </span>
+            <span class="heading">
+                <label>TODO LIST</label>
+            </span>
+        </div>
+        <div class="input">
+            <span>
+                <input type="text" placeholder="Enter Task" class="text" autofocus id="input">
+                </input>
+            </span>
+            <span>
+                <input type="submit" value="Add Task" class="submit" onclick="addItem()" id="btn">
+                </input>
+            </span>
+        </div>
+        <div class="output">
+            <span class="tasks to_do_items">
+                <h3 align="center">TASKS</h3>
+            </span>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
